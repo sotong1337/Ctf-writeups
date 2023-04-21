@@ -336,5 +336,6 @@ Just as I do with challenges when I do not know where to start, I threw the outp
 The magic button told me it was encoded in base64. <br/>
 
 <img src="assets/cyberchef.png" alt="LNC2023{0rd1nal_ass3mbly_1s_s0_c00L}">
-<br/> That's the flag
+<br/> There's the flag
+
 > LNC2023{0rd1nal_ass3mbly_1s_s0_c00L}
