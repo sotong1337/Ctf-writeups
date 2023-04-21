@@ -2,7 +2,7 @@
 ### 486 pts, 19 solves, Easy difficulty
 
 ## Description
-<img src = "Assets/desc.png">
+<img src = "Assets/desc.png" lt = "We found this program from the ancient 20th century. I really miss those days...">
 Attachements:<br/>
 
 [tt.exe](Assets/tt.exe)<br/>
@@ -11,8 +11,7 @@ Attachements:<br/>
 As is with any other RE challenge, we first dump the file into Ghidra to decompile.
 
 Hopping into main, we see:
-
-<img src="Assets/main.png" alt = "We found this program from the ancient 20th century. I really miss those days...>
+<img src="Assets/main.png">
 
 > **Note**
 >
