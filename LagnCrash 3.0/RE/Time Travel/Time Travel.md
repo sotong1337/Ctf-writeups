@@ -58,7 +58,7 @@ For each character in the encoded flag, func2 xors it with the mask, and appends
 
 ## Solving
 
-Since param_5 is already the flag, we do not need to reverse anything. Just replicate what the program does to obtain the flag.
+Since param_5 is already the flag, we do not need to reverse anything. We can simply replicate what the program does to obtain the flag.
 
 Here is a [sample solve script](assets/solve.py):
 ```py
