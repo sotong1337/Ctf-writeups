@@ -7,6 +7,7 @@
 
 Attachements:<br/>
 (don't worry there aren't any actual viruses... i think?)<br/>
+
 [virus1.s](assets/virus1.s)<br/>
 [virus2.s](assets/virus2.s)<br/>
 [README.md](assets/README.md)<br/>
@@ -32,6 +33,7 @@ Not that you should be running this program anyway.
 Both outputs are required to reconstruct the original value. Good luck!
 ```
 This tells us two things:<br/>
+
 1. Both lines of the txt file were encrypted from the same plaintext
 2. The 'virus' programs will encrypt the plaintext letter by letter
 
@@ -326,6 +328,7 @@ Wait a second.. that's not the flag?!
 
 Just as I do with challenges when I do not know where to start, I threw the output into cyberchef. <br/>
 The magic button told me it was encoded in base64. <br/>
+
 <img src="assets/cyberchef.png" alt="LNC2023{0rd1nal_ass3mbly_1s_s0_c00L}">
 <br/> That's the flag
 > LNC2023{0rd1nal_ass3mbly_1s_s0_c00L}
