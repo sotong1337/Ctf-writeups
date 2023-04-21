@@ -2,16 +2,16 @@
 ### 486 pts, 19 solves, Easy difficulty
 
 ## Description
-<img src = "assets/desc.png">
+<img src = "Assets/desc.png">
 Attachements:<br/>
 
-[tt.exe](assets/tt.exe)<br/>
+[tt.exe](Assets/tt.exe)<br/>
 
 ## Initial look
 As is with any other RE challenge, we first dump the file into Ghidra to decompile.
 
 Hopping into main, we see:
-<img src="assets/main.png" alt = "We found this program from the ancient 20th century. I really miss those days...>
+<img src="Assets/main.png" alt = "We found this program from the ancient 20th century. I really miss those days...>
 
 > **Note**
 >
@@ -44,7 +44,7 @@ As such, let's follow through func1().
 
 ## Learning what the program does
 
-<img src = "assets/func1.png">
+<img src = "Assets/func1.png">
 
 func1() calls yet another function, func2().
 
@@ -52,7 +52,7 @@ func1() does not tell us much. However, it does reference the variables used whi
 
 For now, let's look into func2() first.
 
-<img src = "assets/func2.png">
+<img src = "Assets/func2.png">
 
 For each character in the encoded flag, func2 xors it with the mask, and appends it to param_5 (which it returns as the decoded flag).
 
@@ -60,7 +60,7 @@ For each character in the encoded flag, func2 xors it with the mask, and appends
 
 Since param_5 is already the flag, we do not need to reverse anything. We can simply replicate what the program does to obtain the flag.
 
-Here is a [sample solve script](assets/solve.py):
+Here is a [sample solve script](Assets/solve.py):
 ```py
 mask = "STRINGSCANTSOLVEEVERYTHING"
 flag = [0x1f, 0x1a, 0x11, 0x7b, 0x7e, 0x75, 0x60, 0x38, 0x36, 0x7f, 0x61, 0x3b, 0x10, 0x3b, 0x65, 0x1a, 0x26, 0x66, 0x30, 0x1e, 0x3d, 0x0b, 0x3c, 0x3c, 0x3c, 0x29, 0x0c, 0x36, 0x66, 0x2a, 0x25, 0x18, 0x27, 0x72, 0x2c, 0x7d, 0x0b, 0x6a, 0x77, 0x74, 0x60, 0x72, 0x77, 0x2b, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00]
