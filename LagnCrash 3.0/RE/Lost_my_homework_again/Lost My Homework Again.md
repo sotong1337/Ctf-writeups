@@ -287,11 +287,17 @@ From this, we can deduce the steps to reversing it:
 4. add 20 to get the original value<br/>
 
 For the sake of the writeup, here's the mathematical proof: <br/>
+
 $$ v1 = 3\bigg[\Big\lfloor{\frac{n-20}{4}}\Big\rfloor + \bmod\Big(\frac{n-20}{4}\Big)\bigg] $$
+
 $$ v2 = \bigg\lfloor{\frac{n-20}{4}}\bigg\rfloor $$
+
 $$ \frac{v1}{3} = \Big\lfloor{\frac{n-20}{4}}\Big\rfloor + \bmod\Big(\frac{n-20}{4}\Big) $$
+
 $$ \therefore \frac{v1}{3} - v2 = \bmod\Big(\frac{n-20}{4}\Big) $$
+
 $$ \therefore n - 20 = 4 \Big(\frac{v1}{3} - v2\Big) + \bigg\lfloor{\frac{n-20}{4}}\bigg\rfloor =  4\Big(\frac{v1}{3} - v2\Big) +v2 $$
+
 $$ \Rightarrow n = 4\Big(\frac{v1}{3} - v2\Big) +v2 + 20 $$
 
 <br/>
