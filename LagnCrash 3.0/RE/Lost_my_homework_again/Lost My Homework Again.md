@@ -1,4 +1,4 @@
-# RE/Lost My Homework Again!
+# Lag and Crash 3.0/RE/Lost My Homework Again!
 ### 498 pts, 9 solves, Medium difficulty
 
 ## Description
@@ -339,3 +339,6 @@ The magic button told me it was encoded in base64. <br/>
 <br/> There's the flag
 
 > LNC2023{0rd1nal_ass3mbly_1s_s0_c00L}
+
+<br/>
+Writeup by Team RVCTF 0x45

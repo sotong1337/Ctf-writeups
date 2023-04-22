@@ -1,4 +1,4 @@
-# RE/Time Travel
+# Lag and Crash 3.0/RE/Time Travel
 ### 486 pts, 19 solves, Easy difficulty
 
 ## Description
@@ -75,3 +75,6 @@ for i in ans:
 ```
 
 > LNC2023{w15h_w3_c0uLd_turn_b4ck_t1m3_988672}
+
+<br/>
+Writeup by Team RVCTF 0x45

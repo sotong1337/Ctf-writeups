@@ -1,4 +1,4 @@
-# Forensics/Blind
+# Lag and Crash 3.0/Forensics/Blind
 ### 490 pts, 16 solves, No difficulty rating
 
 ## Description
@@ -54,3 +54,6 @@ This [exact image](assets/part2.png) was under Blue Plane 2. However, many other
 <br/><br/>
 
 > LNC2023{guessiwaswrong}
+
+<br/>
+Writeup by Team RVCTF 0x45

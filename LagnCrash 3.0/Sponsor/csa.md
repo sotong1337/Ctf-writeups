@@ -1,4 +1,4 @@
-# Sponsor/CSA
+# Lag and Crash 3.0/Sponsor/CSA
 ### 100 pts, 24 solves, Too difficult to rate
 
 ## Description
@@ -91,6 +91,9 @@ following is the output:
 Taking a careful look at the output, we can finally rest as we have obtained the flag.
 
 > LNC2023{i_l0v3_cSa}
+
+<br/>
+Writeup by Team RVCTF 0x45
 
 ```diff
 # In all seriousness thanks to the authors for the fun challenges!
