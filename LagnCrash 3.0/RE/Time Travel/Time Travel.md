@@ -7,6 +7,16 @@ Attachements:<br/>
 
 [tt.exe](Assets/tt.exe)<br/>
 
+<details>
+  <summary>Hint 1:</summary>
+  How is this program checking the time?
+</details>
+
+<details>
+  <summary>Hint 2:</summary>
+  You may not even need to time travel in order to bypass that code
+</details>
+
 ## Initial look
 As is with any other RE challenge, we first dump the file into Ghidra to decompile.
 
